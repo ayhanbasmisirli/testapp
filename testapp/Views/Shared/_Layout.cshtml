@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Systems Interactive Inc @ViewBag.title</title>
+
+        <meta name="viewport" content="width=device-width" />
+  
+    </head>
+    <body>
+    <header>
+        <h1>Navigation Bar</h1>
+    </header>
+    @RenderBody()
+        
+        <footer>
+            <p> &copy; Systems Interactive Inc. @DateTime.UtcNow.Year</p>
+        </footer>
+    @RenderSection("javaScriptInline",false)
+    </body>
+</html>

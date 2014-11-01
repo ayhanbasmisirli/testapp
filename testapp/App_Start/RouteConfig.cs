@@ -16,6 +16,7 @@ namespace testapp
 
             routes.MapRoute("Home", "",new {controller="Home",action="index"},new []{typeof (HomeController).Namespace});
             //default home route action index with default namespace with homecontroller
+            routes.MapRoute("Register", "register", new {controller = "Register",action="register"});
         }
     }
 }

@@ -6,11 +6,15 @@ using System.Web.Mvc;
 
 namespace testapp.Controllers
 {
-    public class HomeController:Controller
+    public class RegisterController : Controller
     {
-        public ActionResult Index()
+        //
+        // GET: /Register/
+
+        public ActionResult register()
         {
             return View();
         }
+
     }
 }
