@@ -11,10 +11,10 @@ namespace testapp.Controllers
         //
         // GET: /Register/
 
-        public ActionResult register()
+        public ActionResult Register()
         {
             return View();
         }
-
+        
     }
 }
